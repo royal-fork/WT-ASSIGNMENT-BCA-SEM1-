@@ -1,0 +1,53 @@
+* {
+    font-family: verdana, arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    padding: 0;
+    background: rgb(138, 37, 143);
+    background: linear-gradient(157deg, rgba(138, 37, 143, 1) 2%, rgba(189, 29, 139, 1) 42%, rgba(236, 10, 165, 1) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-size: 45px;
+}
+
+hr {
+    width: 100%; /* Full width */
+    border: none; /* Remove default border */
+    height: 3px; /* Height of the line */
+    background-color: #000000; /* Line color */
+    margin: 0; /* Remove margins */
+}
+
+ol {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    list-style-position: inside;
+    margin-top: 25px;
+}
+
+ol ul {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    list-style-position: inside;
+    color: #ffffff;
+}
+
+ol li {
+    margin-bottom: 16px;
+}
+
+ol ul li {
+    margin-bottom: 0;
+}
