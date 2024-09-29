@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shapes Image Map</h1>
+        <p>Click on the shapes to learn more about them!</p>
+        
+
+       
+      <img src="shapes.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="./circle.html" coords="196,135,72" shape="circle">
+    <area target="" alt="" title="" href="./square.html" coords="471,160,257,278" shape="rect">
+    <area target="" alt="" title="" href="./triangle.html" coords="117,61,60,168" shape="rect">
+</map>
+    </div>
+</body>
+</html>
